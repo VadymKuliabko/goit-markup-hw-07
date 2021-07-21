@@ -1,0 +1,36 @@
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.footer-link-item:last-child {
+  margin-right: 0;
+}
+
+.link-item:hover,
+.link-item:focus {
+  background: var(--accent-color);
+}
+.link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
