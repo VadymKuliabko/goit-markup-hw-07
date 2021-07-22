@@ -26,10 +26,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.client-item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .client-link {
@@ -43,14 +43,14 @@
   fill: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.client-link:hover,
-.client-link:focus {
-  fill: var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 
-.client-link:hover,
-.client-link:focus {
-  border: 1px solid var(--accent-color);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }

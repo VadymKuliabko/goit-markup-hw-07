@@ -9,16 +9,12 @@
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
-.footer-link-item:last-child {
-  margin-right: 0;
-}
-
-.link-item:hover,
-.link-item:focus {
-  background: var(--accent-color);
-}
 .link-item {
   display: flex;
   align-items: center;
@@ -28,6 +24,11 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
+
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+  }
 }
 
 .footer-icon {

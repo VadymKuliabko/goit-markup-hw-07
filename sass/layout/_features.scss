@@ -18,10 +18,10 @@
 
 .feature-item {
   margin-right: 30px;
-}
 
-.feature-item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .title {

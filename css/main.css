@@ -87,8 +87,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   background: #188ce8;
 }
 
@@ -111,8 +110,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
   background: var(--accent-color);
   fill: #ffffff;
 }
@@ -139,11 +137,6 @@ body {
   margin-right: 0;
 }
 
-.link-item:hover,
-.link-item:focus {
-  background: var(--accent-color);
-}
-
 .link-item {
   display: flex;
   align-items: center;
@@ -153,6 +146,10 @@ body {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
+}
+
+.link-item:hover, .link-item:focus {
+  background: var(--accent-color);
 }
 
 .footer-icon {
@@ -183,8 +180,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-btn:hover,
-.footer-btn:focus {
+.footer-btn:hover, .footer-btn:focus {
   background: #188ce8;
 }
 
@@ -243,8 +239,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-modal:hover,
-.close-modal:focus {
+.close-modal:hover, .close-modal:focus {
   fill: var(--accent-color);
 }
 
@@ -329,6 +324,18 @@ body {
   border-color: var(--accent-color);
 }
 
+.modal-form-checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-bottom: 30px;
+  margin-left: 14px;
+}
+
 .modal-form-checkbox-label::before {
   display: block;
   content: "";
@@ -352,18 +359,6 @@ body {
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
   outline: 1px solid #212121;
-}
-
-.modal-form-checkbox-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-  margin-bottom: 30px;
-  margin-left: 14px;
 }
 
 .modal-form-label-link {
@@ -391,8 +386,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-button:hover,
-.modal-form-button:focus {
+.modal-form-button:hover, .modal-form-button:focus {
   background: #188ce8;
 }
 
@@ -461,8 +455,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -493,8 +486,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover, .contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -768,13 +760,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   fill: var(--accent-color);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -822,6 +812,7 @@ body {
 }
 
 .company-link {
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -831,18 +822,13 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.company-link-mail {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.company-link:hover,
-.company-link:focus {
+.company-link:hover, .company-link:focus {
   color: var(--accent-color);
 }
 
-.company-link {
-  text-decoration: none;
+.company-link-mail {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .join {
@@ -937,8 +923,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-btn:hover,
-.nav-btn:focus {
+.nav-btn:hover, .nav-btn:focus {
   background-color: var(--accent-color);
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -968,14 +953,14 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.development-link:hover .overlay,
-.development-link:focus .overlay {
-  transform: translateY(0%);
-}
-
 .development-link {
   text-decoration: none;
   display: block;
+}
+
+.development-link:hover .overlay,
+.development-link:focus .overlay {
+  transform: translateY(0%);
 }
 
 .development-image {

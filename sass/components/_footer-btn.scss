@@ -19,11 +19,11 @@
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-btn:hover,
-.footer-btn:focus {
-  background: #188ce8;
+  &:hover,
+  &:focus {
+    background: #188ce8;
+  }
 }
 
 .footer-icon-btn {
