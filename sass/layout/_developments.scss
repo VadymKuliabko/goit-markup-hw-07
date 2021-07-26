@@ -1,8 +1,8 @@
-.development-catalog {
+.developments-section {
   background: #ffffff;
 }
 
-.catalog {
+.developments-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -14,7 +14,7 @@
   margin-bottom: 34px;
 }
 
-.item {
+.catalog-nav__item {
   margin-right: 8px;
 
   &:last-child {
@@ -22,7 +22,7 @@
   }
 }
 
-.nav-btn {
+.catalog-nav__btn {
   font-family: inherit;
   background: #f5f4fa;
   font-weight: 500;
@@ -60,7 +60,7 @@
   margin-left: -30px;
 }
 
-.development-item {
+.development__item {
   margin-top: 30px;
   margin-left: 30px;
   transition-duration: 250ms;
@@ -72,22 +72,22 @@
   }
 }
 
-.development-link {
+.development__link {
   text-decoration: none;
   display: block;
 
-  &:hover .overlay,
-  &:focus .overlay {
+  &:hover .development__overlay,
+  &:focus .development__overlay {
     transform: translateY(0%);
   }
 }
 
-.development-image {
+.development__image {
   position: relative;
   overflow: hidden;
 }
 
-.overlay {
+.development__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -106,7 +106,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.developments {
+.development__description {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -114,7 +114,7 @@
   border: 1px solid #eeeeee;
 }
 
-.development-name {
+.development__name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -123,7 +123,7 @@
   margin-bottom: 4px;
 }
 
-.development-section {
+.development__section-app {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;

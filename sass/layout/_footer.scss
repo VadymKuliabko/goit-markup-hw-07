@@ -1,4 +1,4 @@
-.contacts-company {
+.footer {
   background: #2f303a;
 }
 
@@ -9,7 +9,7 @@
   padding-bottom: 60px;
 }
 
-.contacts-footer {
+.footer-contacts {
   display: block;
   margin-right: 70px;
 }
@@ -17,9 +17,10 @@
 .footer-logo {
   display: inline-block;
   margin-right: 0px;
+  text-decoration: none;
 }
 
-.studio-logo {
+.footer-logo__studio {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -41,7 +42,12 @@
   display: inline-block;
 }
 
-.company-link {
+.address__link-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.address__link {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
@@ -57,12 +63,7 @@
   }
 }
 
-.company-link-mail {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.join {
+.footer-social__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -72,16 +73,11 @@
   margin-bottom: 20px;
 }
 
-.subscribe-to-newsletter {
+.subscription {
   margin-left: 93px;
 }
 
-.footer-form {
-  display: flex;
-  align-items: center;
-}
-
-.footer-form-text {
+.subscription__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -91,7 +87,12 @@
   margin-bottom: 20px;
 }
 
-.form-email {
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form__email {
   width: 358px;
   margin-right: 12px;
   padding-top: 15px;

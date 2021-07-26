@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.footer-link-item {
+.footer-list__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@
   }
 }
 
-.link-item {
+.footer-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@
   }
 }
 
-.footer-icon {
+.footer-list__icon {
   width: 20px;
   height: 20px;
 }

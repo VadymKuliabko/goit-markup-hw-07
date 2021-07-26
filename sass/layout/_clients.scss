@@ -1,13 +1,13 @@
-.clients-company {
+.clients-section {
   background: #ffffff;
 }
 
-.client-container {
+.clients-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.client-title {
+.clients-container__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -16,13 +16,13 @@
   color: var(--main-color);
   margin-bottom: 50px;
 }
-.clients {
+.client {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.client-item {
+.client__item {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,7 +32,7 @@
   }
 }
 
-.client-link {
+.client__link {
   display: flex;
   align-items: center;
   justify-content: center;

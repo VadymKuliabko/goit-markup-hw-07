@@ -1,4 +1,4 @@
-.modal {
+.modal-window {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -9,7 +9,7 @@
   padding: 40px;
 }
 
-.close {
+.close-window {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-.close-modal {
+.close-window__icon {
   position: absolute;
   top: 50%;
   left: 50%;
